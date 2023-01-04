@@ -1,0 +1,42 @@
+.body{background-color:rgba(247, 240, 251, 0.653)}
+
+
+
+h1{color: REd;}
+
+.table{margin-top: 20px; margin-left: 350px; border-color: rgb(206, 15, 15);}
+
+
+
+#tr1{background-color:rgba(31, 31, 69, 0.989);}
+
+#title1{color: white; text-align: center;}
+#title2{margin-left: 80%; font-weight: bolder; color: white;}
+
+#title1:hover{color: aqua;}
+#title2:hover{color: aqua;}
+
+#EducationHistory{color:rgb(106, 106, 250); font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.education{font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+#grade{font-weight: bold;}
+#link1{margin-left: 500px; margin-top: -50px;}
+#em1{font-weight: bolder; color: #5454ef}
+
+#em2{color:#5454ef; font-weight: bolder;}
+#link2{margin-left: 500px;  margin-top: -40px;}
+#em3{font-weight: bolder;color:  rgb(84, 84, 239);}
+
+
+/* Nested Table */
+#table2{margin-left: 220px; border-color: rgba(21, 102, 102, 0.97);}
+
+#caption{font-weight: bolder;color:  rgb(84, 84, 239); font-size: larger;}
+#li1{color:rgb(106, 106, 250);}
+#em4{font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#td{font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(219, 0, 0);}
+#td2{font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(255, 0, 0);}
+.front{margin-left: 500px; margin-top: -50px;}
+#liststyle{list-style-type: upper-roman;}
+select{background-color: rgba(31, 31, 69, 0.989); color: rgb(255, 255, 255);}
+select:hover{font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: aqua;}

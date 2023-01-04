@@ -1,0 +1,188 @@
+CSS Code{
+
+#title2{margin-left: 80%; font-weight: bolder; color: white;}
+#title1{color: white; text-align: center;}
+#em{margin-left: 500px; margin-top: -50px;}
+#university{margin-left: 500px;  margin-top: -40px;}
+.table{margin-top: 20px; margin-left: 350px; border-color: rgb(206, 15, 15);}
+#table2{margin-left: 220px; border-color: rgba(21, 102, 102, 0.97);}
+.fornt{margin-left: 500px; margin-top: -50px;}
+
+
+}
+ HTML CODE{
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Resume</title>
+        <meta name="description" content="My assignment"/>
+        <link rel="stylesheet" href="Css.css">
+        <style>
+           #tr1{background-color:rgba(31, 31, 69, 0.989);}
+           .body{background-color:rgba(247, 240, 251, 0.653)}
+           #grade{font-weight: bold;}
+           #location{font-weight: bolder;color:  rgb(84, 84, 239);}
+           #em2{font-weight: bolder; color: #5454ef}
+           #caption{font-weight: bolder;color:  rgb(84, 84, 239); font-size: larger;}
+           
+        </style>
+    </head>
+    <body class="body">
+        <table border="6" width="50%%" class="table">
+
+
+           <header>
+            <caption>
+                <h1 style="color: REd;">MY CV</h1>
+            </caption>
+            <!-- Row 1 -->
+            <tr id="tr1">
+                <td>
+                        <h1 id="title1">Ramiz Amjad Alsalem</h1>
+                        <p id="title1">2136846</p>
+                        <p id="title2">Resume assignment</p>
+                </td>
+            </tr>
+          </header>
+
+
+          <body>
+            <!-- Row 2 -->
+            <tr id="tr2">
+                <td><ul>
+                    <!-- This is the fist Item in the list -->
+                        <li style="color:rgb(106, 106, 250);"><em style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Education history</em></li>
+                        <ul><li>I spend my secondary education at <mark>prince 
+                                Muhammad secondary school</mark>.<br>
+                                 My high school grade was <em id="grade">86.6</em>. <li id="em">
+                                    <a href="https://www.google.com/maps/place/%D9%85%D8%AF%D8%B1%D8%B3%D8%A9+%D8%A7%D9%84%D8%A7%D9%85%D9%8A%D8%B1+%D9%85%D8%AD%D9%85%D8%AF+%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9+%D9%84%D9%84%D8%A8%D9%86%D9%8A%D9%86%E2%80%AD/@32.0779957,36.0864307,15z/data=!4m5!3m4!1s0x0:0x48a614a76ce0274c!8m2!3d32.078052!4d36.0863685">
+                                    <em id="em2">Its location
+                                    </em></a>
+                                </li>
+                            </li>
+
+
+                            <br>
+                            <br>
+
+
+                            <hr width="90%" height="50">
+
+                            <!-- This is the Second Item in the list -->
+                            <li>
+                                I&apos;m now completing my studies 
+                                at the <mark>Hashemite University</mark> <br>and my 
+                                major is <em style="color:#5454ef; font-weight: bolder;">cyber security</em>.
+                                <li id="university">
+                                    <a href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%87%D8%A7%D8%B4%D9%85%D9%8A%D8%A9%E2%80%AD/@32.0946445,36.1802867,13.23z/data=!4m5!3m4!1s0x151b73d1eb51be21:0xc4daca834a1e6988!8m2!3d32.1028831!4d36.1811215">
+                                        <em id="location">Hashemite University location</em>
+                                    </a>
+                                </li>
+                            </li></ul>
+                </ul></td>
+            </tr>
+            <!-- Row 3 -->
+            <tr>
+                <td>
+
+                    <ul>
+                        <li style="color:rgb(106, 106, 250);" >
+                            <em  style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Work experience.</em>
+                        </li>
+                        <ul>
+                            <li>fornt-end developer.</li>
+                            <ul><li>HTML, CSS.</li></ul> 
+                        </ul>
+                        <hr width="50%" height="50">
+                        <hr width="50%" height="50">
+                        <li style="color:rgb(106, 106, 250);">
+                            <em  style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Skills</em>
+                        </li>
+                        <ul>
+                            <li>Writing java codes</li>
+                        </ul>
+                        <hr width="50%" height="50">
+                        <hr width="50%" height="50">
+                        <li style="color:rgb(106, 106, 250);">
+                            <em  style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Objective</em>
+                        </li>
+                        <ul>
+                            <li>Full Stack developer</li>
+                            <li>Learn python</li>
+                            <li>Learn Kali linux commands</li>
+                        </ul>
+                    </ul>
+                </td>
+
+            </tr>
+            <!-- Row 4 -->
+            <tr>
+                <td>
+                    <ul>
+                        <li style="color:rgb(106, 106, 250);">
+                            <em  style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Languages</em>
+                        </li>
+                        <ul>
+                            <li><u style="font-size:larger">Arabic</u></li>
+                            <li><u style="font-size:larger;">English</u></li>
+                        </ul>
+                        <hr width="50%" height="50">
+                        <hr width="50%" height="50">
+                        <li style="color:rgb(106, 106, 250);">
+                            <em  style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hoppies</em>
+                        </li>
+                        <ul>
+                            <li>Reading books</li>
+                            <li>Playing vedio games</li>
+                        </ul>
+                    </ul>
+                </td>
+            </tr>
+        </body>
+
+
+        <footer>
+            <!-- row 5 -->
+            <tr>
+          
+                <td>
+                    <!-- Start of Nested table -->
+                    <table id="table2" border="6">
+                        <caption id="caption">Contact information</caption>
+                        <tr>
+                            <td style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(106, 106, 250);">
+                                <img src="address.png" height="20" width="20"/><sup>Address</sup>
+                            
+                            </td>
+                            <td style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(42, 42, 79);">Jordan-AZarqa</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(106, 106, 250);">
+                                <img src="Phone.png" height="20" width="20"/> <sup>Phone Number</sup>
+                            </td>
+
+                            <td style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(42, 42, 79);">+962&ndash;795394562</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(106, 106, 250);">
+                                <img src="Email.png" height="20" width="20" /> <sup>Mail</sup>
+                            </td>
+                            <td>
+                                <a href="mailto:ralsalem208@gmail.com" style="font-weight: bolder; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(42, 42, 79);">Contact me via email</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- End of Nested table -->
+                </td>
+                
+            </tr>
+            </footer>
+
+
+        </table>
+        <h1 style="color:red">&copy; Ramiz</h1>
+    </body>
+</html>
+
+}
